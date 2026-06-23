@@ -1,0 +1,7 @@
+.productune/po.lock
+.productune/logs/
+.productune/turns.jsonl
+.productune/.cost-main-gate.json
+.claude/settings.local.json
+
+.DS_Store
