@@ -14,6 +14,8 @@
 ### 방법 1 — 어디서나 쓰기 (개인 스킬, 추천)
 repo를 클론한 뒤 루트에서:
 ```bash
+git clone https://github.com/shawn-kim-axz/ntf-game-builder
+cd ntf-game-builder
 ./install.sh
 ```
 `~/.claude/skills/game-builder` 로 복사됩니다. 이제 **아무 폴더**에서 Claude Code를 열어도 스킬이 잡힙니다.
@@ -21,7 +23,7 @@ repo를 클론한 뒤 루트에서:
 (수동으로 하려면: `cp -r .claude/skills/game-builder ~/.claude/skills/`)
 
 ### 방법 2 — 이 repo 안에서만 쓰기
-이 repo(`daum-game-builder`) 폴더에서 Claude Code를 열면 프로젝트 스킬로 **자동 인식**됩니다. 처음 열 때 폴더 신뢰(workspace trust)를 허용하세요.
+이 repo(`ntf-game-builder`) 폴더에서 Claude Code를 열면 프로젝트 스킬로 **자동 인식**됩니다. 처음 열 때 폴더 신뢰(workspace trust)를 허용하세요.
 
 ## 사용법
 Claude Code에서 그냥:
